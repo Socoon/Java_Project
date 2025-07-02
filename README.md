@@ -1,2 +1,13 @@
-# Java_Project
-This project demonstrates automated testing for a demo e-commerce site (Automation Test Store) using:  Selenide for browser automation  Cucumber for BDD-style test scenarios  TestNG for test execution  Allure for detailed test reporting  Features tested:  User registration  Adding items to cart  Completing checkout with order confirmation  📄 Includes both Cucumber-based and pure TestNG-based test cases.  🧰 Tech Stack: Java, Selenide, Cucumber, TestNG, Allure, Maven
+#☕Java Project: Automated E-commerce Testing
+This project shows how to automatically test a shopping website using two methods: one with Cucumber (step-by-step scenarios) and one without Cucumber (regular TestNG).
+Features tested:  
+- User registration 🤵
+- Adding items to the shopping cart 🛒
+- Completing the checkout process 💳
+- Verifying order confirmation ✅
+
+📄 Test Types
+✔️ Cucumber-based test cases (BDD style)
+✔️ Pure TestNG test cases (traditional style)
+
+
