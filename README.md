@@ -9,7 +9,9 @@ Features tested:
 - Verifying order confirmation ✅
 
 📄 Test Types
+
 ✔️ Cucumber-based test cases (BDD style)
+
 ✔️ Pure TestNG test cases (traditional style)
 
 
