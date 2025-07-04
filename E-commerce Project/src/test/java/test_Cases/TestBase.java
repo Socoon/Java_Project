@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeSuite;
 public class TestBase {
 	@BeforeSuite
 	public void startBrowser(){
-		Configuration.browser = "chrome";
+		Configuration.browser = "firefox";
 		open("https://automationteststore.com/");
 	}
 	@AfterSuite
