@@ -10,7 +10,8 @@ import static com.codeborne.selenide.Selenide.*;
 public class TestBase {
 	//@BeforeSuite
 	public void startBrowser(){
-		Configuration.browser = "firefox";
+		Configuration.browser = "chrome";
+		Configuration.headless = true;
 		open("https://automationteststore.com/");
 	}
 	//@AfterSuite
