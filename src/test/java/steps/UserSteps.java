@@ -1,5 +1,6 @@
 package steps;
 import io.cucumber.java.en.*;
+import static com.codeborne.selenide.Selenide.open;
 import sitePages.*;
 
 
@@ -12,6 +13,7 @@ public class UserSteps{
 
 	@Given ("user opens the Home Page selects Euro currency and clicks on Register link")
 	public void userOpensHomePageAndSelectsEuroCurrency(){
+		open("https://automationteststore.com/");
 		home.selectEuroCurrency();
 		home.clickRegisterLink();
 	}
