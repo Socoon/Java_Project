@@ -11,7 +11,7 @@ public class TestBase {
 	//@BeforeSuite
 	public void startBrowser(){
 		Configuration.browser = "chrome";
-		Configuration.headless = true;
+		//Configuration.headless = true;
 		open("https://automationteststore.com/");
 	}
 	//@AfterSuite
