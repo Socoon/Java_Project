@@ -2,17 +2,11 @@ pipeline {
     agent any
 
     tools {
-        maven 'MAVEN_HOME'   // Name must match Jenkins tools config
-        jdk 'JAVA_HOME'      // Same here
+        maven 'MAVEN_HOME'
+        jdk 'JAVA_HOME'
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/Dem0nFace/Java_Project.git'
-            }
-        }
-
         stage('Build & Test') {
             steps {
                 bat 'mvn clean test'
