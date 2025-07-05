@@ -1,4 +1,5 @@
 Feature: User Registration and Order
+@cucumber
 Scenario: Register and Order
 Given user opens the Home Page selects Euro currency and clicks on Register link
 When user fills the registration form with valid data

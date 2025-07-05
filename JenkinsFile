@@ -9,7 +9,8 @@ pipeline {
     stages {
         stage('Build & Test') {
             steps {
-                bat 'mvn clean test'
+                bat 'mvn clean verify -Dcucumber.features=src/test/java/features -Dcucumber.filter.tags="@cucumber"'
+
             }
         }
 
