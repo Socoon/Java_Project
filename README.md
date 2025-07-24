@@ -22,7 +22,8 @@ Features tested:
 ✔️ Pure TestNG test cases (traditional style)
 <img width="1407" height="584" alt="Classic" src="https://github.com/user-attachments/assets/7e1cd006-3b97-42ca-a11a-33e63137e60f" />
 
+I shared an example showing Cucumber vs classic test code. Take a look 👇
 
-
+https://www.linkedin.com/posts/assem-allam-socoon-843365224_cucumber-automationtesting-bdd-activity-7350268658339721216-9QUN?utm_source=share&utm_medium=member_desktop&rcm=ACoAADhLMHMBT5suD0DB9alYl308qTqVjtzX1fE
 
 
